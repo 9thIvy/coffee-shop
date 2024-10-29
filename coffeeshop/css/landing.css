@@ -1,0 +1,128 @@
+
+.introduction{
+    background-color: #fff0ed;
+    /* padding-bottom: 3rem; */
+}
+
+.introduction__spiel{
+    display: inline-block;
+    max-width: 30%;
+    padding: 0rem 0rem 5rem 8rem;
+    vertical-align: 13rem;
+}
+
+.introduction__title{
+    margin: 0rem 0rem 0rem 0rem;
+    
+}
+
+.introduction__product{
+    margin: 0rem 0rem 0rem 10rem;
+}
+
+button{
+    background-color: #5bacc3;
+    font-size: large;
+    color: white;
+    border: none;
+    font-weight: 700;
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+}
+ 
+/* 45% looks more centered than 50%*/
+.button--centered{
+    position: absolute;
+    left: 45%;
+}
+
+.products{
+    background-color: #f7f7f7;
+    padding-bottom: 7rem;
+}
+.products__list{
+    width: 75%;
+    margin:auto;
+    padding-bottom: 4rem;
+}
+
+.product-card{
+    
+    width:20rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0rem 0.5rem 2rem 0rem rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-right: 4rem;
+    
+
+    
+}
+.product-card__text{
+    margin-top: 2rem;
+    background-color:#fff0ed;
+    padding: 1rem 3rem;
+}
+
+.product-card__image{
+    
+    height: 13rem;
+    width: 7rem;    
+    display:block;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.product-card__price{
+    color:#5bacc3;
+    text-align:center;
+    font-size: 1.7rem;
+}
+
+.products__header{
+    text-align: center;
+}
+
+.products > p {
+    color: #5bacc3;
+    font-size: 2rem;
+}
+
+.promo-code{
+    margin: 9.5rem auto 9.5rem auto;
+    width: 90%;
+    font-size: 2.8rem;
+}
+
+.promo-code__text{
+    padding: 2rem;
+    background-color: #393939;
+    color: #ffffff;
+}
+
+.element--bold{
+    font-weight: 700;
+}
+
+footer{
+    background-color: #fff0ed;
+    padding-bottom: 4rem ;
+}
+
+.contact-list{
+    margin: auto auto auto 15rem
+}
+.contact{
+    display:inline-block;
+    margin-right: 10rem;
+}
+
+.contact__icon{
+    width:3rem;
+    height: auto;
+}
+
+.element--marginless{
+    margin:0;
+}
