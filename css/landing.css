@@ -19,9 +19,6 @@
     margin: 0rem 0rem 0rem 10rem;
 }
  
-.button--centered{
-    align-self: center;
-}
 
 .products{
     background-color: #f7f7f7;
@@ -115,7 +112,18 @@
     padding: 2.5rem 6.25rem 2.5rem 6.25rem;
 
 }
+.beyblade:hover{
+    animation: spinny-can 2s linear infinite ;
 
+}
+@keyframes spinny-can {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
 .promo__nothing-burger{
     width: 40%;
 }

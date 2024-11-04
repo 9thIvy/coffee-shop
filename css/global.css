@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Open Sans';
     font-weight: 400;
@@ -33,6 +36,7 @@ button{
     text-transform: uppercase;
 }
 
+
 .nav-bar{
     margin: 0rem 0rem 0rem 0rem;
     padding: 0.6rem 0rem 0rem 0.6rem;
@@ -43,8 +47,6 @@ button{
 
 }
 
-.nav-bar__logo{
-}
 .nav-bar__text--large {
     font-size: 2.8rem;    
     font-weight: 300;
