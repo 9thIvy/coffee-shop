@@ -5,8 +5,12 @@ header{
 }
 
 .display-menu-over-beans {
+    display:flex;
     position: relative;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
     background-image: url("../assets/images/coffee-circle.jpg");
     background-repeat: no-repeat;
@@ -21,10 +25,8 @@ header{
     color: #ffffff;
     font-size: 3.75rem;
     font-weight: 300;
-    position: absolute;
-    padding: 0% 4% 6% 4%;
-    margin-top: 0rem;
-    margin-left: 40%;
+    padding: 2.5rem
+
     
 }
 
