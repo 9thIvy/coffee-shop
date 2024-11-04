@@ -116,6 +116,35 @@
     animation: spinny-can 2s linear infinite ;
 
 }
+
+.annoy-user{
+    animation: annoy-user 2.5s  linear infinite;
+}
+.annoy-user::after{
+    
+}
+
+@keyframes annoy-user{
+    0%{
+        background-color: #393939;
+    }  
+    25%{
+
+        background-color: #5bacc3;
+    }
+    50%{
+        background-color: #393939;
+    }  
+    75%{
+
+        background-color: #5bacc3;
+    }
+    100%{
+        background-color: #393939;
+
+    }
+}
+
 @keyframes spinny-can {
     from{
         transform: rotate(0deg);
