@@ -92,19 +92,18 @@
 
 
 .promo{
-    display: flex;
-    flex-direction: column;
+    @include center-column;
     padding-top: 5rem;
-    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+
 }
 .flex--horizontal{
     display: flex;
     justify-content: space-around;
 }
 .flex--vertical{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+    @include center-column;
 }
 .promo__spinny-can{
     background-image: url("../assets/images/coldbrewbackground.png");
@@ -172,6 +171,7 @@
     font-size: 2.8125rem;
     background-color: #393939;
     color: #ffffff;
+    width: 90%;
 }
 
 .element--bold{
@@ -199,6 +199,8 @@ footer{
 @mixin marginless{
     margin:0;
 }
+
+
 .element--marginless{
-    margin:0;
+    @include marginless;
 }
