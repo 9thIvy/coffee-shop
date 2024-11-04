@@ -120,9 +120,7 @@
 .annoy-user{
     animation: annoy-user 2.5s  linear infinite;
 }
-.annoy-user::after{
-    
-}
+
 
 @keyframes annoy-user{
     0%{
