@@ -1,4 +1,4 @@
-@import './partials/global';
+@use './partials/global' as *;
 .introduction{
     background-color: #fff0ed;
 }
@@ -196,6 +196,9 @@ footer{
     height: auto;
 }
 
+@mixin marginless{
+    margin:0;
+}
 .element--marginless{
     margin:0;
 }
