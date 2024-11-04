@@ -96,27 +96,45 @@
 
 .promo{
     display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    align-items: center;
+}
+.flex--horizontal{
+    display: flex;
+    justify-content: space-around;
+}
+.flex--vertical{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.promo__spinny-can{
+    background-image: url("../assets/images/coldbrewbackground.png");
+    background-size: 103%;
+    padding: 2.5rem 6.25rem 2.5rem 6.25rem;
+
 }
 
 .promo__nothing-burger{
-    display:flex;
-    flex-direction: column;
+    width: 40%;
 }
 
 .promo__nothing-icons{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .promo__nothing-icons img{
     width: 3.125rem;
+    padding-bottom: 1.25rem;
 }
 
 .promo-code__text{
-    margin: 9.5rem auto 9.5rem auto;
-    width: 90%;
-    font-size: 2.8rem;
-    padding: 2rem;
+
+   margin: 7.5rem 0rem 7.5rem 0rem;
+    padding: 2.5rem;
+    font-size: 2.8125rem;
     background-color: #393939;
     color: #ffffff;
 }
