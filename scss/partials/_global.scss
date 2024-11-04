@@ -1,10 +1,17 @@
 * {
     box-sizing: border-box;
 }
+
+$nitro-blue: #5bacc3;
+$nitro-pink: #fff0ed;
+$graphite: #393939;
+$light-grey: #f7f7f7;
+$grey: #909090;
+
 body {
     font-family: 'Open Sans';
     font-weight: 400;
-    color:#393939;
+    color:$graphite;
     margin: 0rem;
 }
 
@@ -13,7 +20,7 @@ ul {
 }
 
 header{
-    background-color: #fff0ed ;
+    background-color: $nitro-pink ;
 }
 
 h2{
@@ -27,7 +34,7 @@ h3{
     font-weight: 300;
 }
 button{
-    background-color: #5bacc3;
+    background-color: $nitro-blue;
     font-size: large;
     color: white;
     border: none;
@@ -74,11 +81,11 @@ button{
 .nav-bar__text{
 
     font-size: 1.2rem;
-    color:#393939;
+    color:$graphite;
 }
 
 .nav-bar__text--blue{
-    color: #5bacc3;
+    color: $nitro-blue;
 }
 
 .nav-bar__text a{
@@ -91,4 +98,9 @@ button{
     color:inherit;
     text-decoration: none;
     
+}
+
+
+@mixin marginless{
+    margin:0;
 }

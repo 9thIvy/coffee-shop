@@ -1,8 +1,7 @@
-@use './partials/_global';
-
+@use './partials/global' as *;
 
 header{
-    background-color: #fff0ed;
+    background-color: $nitro-pink;
 }
 
 .display-menu-over-beans {
@@ -22,8 +21,8 @@ header{
 }
 
 .display-menu-over-beans__text {
-    background-color: #393939;
-    color: #ffffff;
+    background-color: $graphite;
+    color: white;
     font-size: 3.75rem;
     font-weight: 300;
     padding: 2.5rem
@@ -45,7 +44,7 @@ ul {
     padding-top: 1rem;
 }
 .menu__item{
-    margin: 0;
+    @include marginless;
 }
 
 .menu__description{
@@ -59,15 +58,15 @@ ul {
 }
 
 .menu--pink {
-    background-color: #fff0ed;
+    background-color: $nitro-pink;
 }
 .menu--grey {
-    background-color: #f7f7f7;
+    background-color: $light-grey;
 
 }
 
 .menu__price {
-    color: #5bacc3;
+    color: $nitro-blue;
     margin-bottom: 0rem;
     padding-bottom: 1rem;
     font-weight: 400;
@@ -83,7 +82,7 @@ ul {
 .drink-shortcuts{
     width: 100%;
     text-align: center;
-    background-color: #393939;
+    background-color: $graphite;
     color: #ffffff;
 
     padding: 1rem 0rem 1rem 0rem;
@@ -102,7 +101,7 @@ ul {
     text-transform: uppercase;
     border-width: 0rem 0rem 0rem 0.3rem;
     border-style:solid;
-    border-color: #5bacc3;
+    border-color: $nitro-blue;
     padding: 0rem 1rem 0rem 1rem;
 
     

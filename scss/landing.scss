@@ -21,7 +21,7 @@
  
 
 .products{
-    background-color: #f7f7f7;
+    background-color: $light-grey;
     padding-bottom: 7rem;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
 .product-card__text{
     display: flex;
     margin-top: 2rem;
-    background-color:#fff0ed;
+    background-color:$nitro-pink;
     justify-content: space-around;
     padding-bottom: 1.25rem;
 }
@@ -77,10 +77,10 @@
 }
 .product__serving-size{
     margin: 0rem;
-    color: #909090;
+    color: $grey;
 }
 .product-card__price{
-    color:#5bacc3;
+    color:$nitro-blue;
     font-size: 1.7rem;
     justify-self: flex-end;
     font-weight: 700;
